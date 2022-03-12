@@ -1,0 +1,136 @@
+object Form1: TForm1
+  Left = 256
+  Height = 652
+  Top = 145
+  Width = 603
+  Caption = 'Form1'
+  ClientHeight = 652
+  ClientWidth = 603
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 216
+    Height = 15
+    Top = 16
+    Width = 240
+    Caption = 'FIO'
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 15
+    Top = 314
+    Width = 66
+    Caption = 'Сортировка'
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 88
+    Width = 80
+    TabOrder = 0
+    Text = 'E1_text'
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 15
+    Top = 64
+    Width = 26
+    Caption = 'L1_caption'
+  end
+  object Edit2: TEdit
+    Left = 16
+    Height = 23
+    Top = 152
+    Width = 80
+    TabOrder = 1
+    Text = 'E2_text'
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 15
+    Top = 128
+    Width = 38
+    Caption = 'L2_caption'
+  end
+  object Edit3: TEdit
+    Left = 16
+    Height = 23
+    Top = 216
+    Width = 80
+    TabOrder = 2
+    Text = 'E3_text'
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 15
+    Top = 192
+    Width = 39
+    Caption = 'L3_caption'
+  end
+  { INSERTL:192 }
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'Добавить'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object StringGrid1: TStringGrid
+    Left = 192
+    Height = 164
+    Top = 64
+    Width = 288
+    ColCount = 4
+    RowCount = 1
+    TabOrder = 4
+    Cells = (
+      4
+      0
+      0
+      'N'
+      1
+      0
+      'L1_caption'
+      2
+      0
+      'L2_caption'
+      3
+      0
+      'L3_caption'
+    )
+  end
+  object RadioButton1: TRadioButton
+    Left = 27
+    Height = 19
+    Top = 335
+    Width = 69
+    Caption = 'По SORT1_R'
+    TabOrder = 5
+  end
+  object RadioButton2: TRadioButton
+    Left = 27
+    Height = 19
+    Top = 368
+    Width = 81
+    Caption = 'По SORT2_R'
+    TabOrder = 6
+  end
+  object RadioButton3: TRadioButton
+    Left = 27
+    Height = 19
+    Top = 400
+    Width = 88
+    Caption = 'SORT1_, SORT2_'
+    TabOrder = 7
+  end
+  object Button2: TButton
+    Left = 16
+    Height = 25
+    Top = 424
+    Width = 75
+    Caption = 'Сохранить'
+    OnClick = Button2Click
+    TabOrder = 8
+  end
+end
